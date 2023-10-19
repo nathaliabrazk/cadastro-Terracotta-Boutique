@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#pagina{
+    height: 120vh;/*VH viewport height*/
+    width: 100%;
+    background-color: #663d2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main{
+    width: 60%;
+    height: 600px;
+    background-color: #efebce;
+    border-radius: 10px;
+    box-shadow: black;
+    display: flex;
+    overflow: hidden;
+}
+
+#banner, #formulario{
+    width: 50%;
+    height: 100%;
+}
+
+#banner{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
+}
+
+h2{
+    color:rgb(77, 43, 43);
+    margin: 20px 0px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 3px;
+    transition: 0.2s;
+    animation: borda 1.5s infinite;
+}
+
+input:focus{
+    width: 400px;
+    height: 40px;
+    transition: 0.1s;
+    background-color: rgba(94, 49, 49, 0.308);
+    color: azure;
+}
+
+input:hover{
+    background-color: rgba(255, 228, 196, 0.795);
+    transition: 0.2;
+}
+
+input::placeholder{
+    color: chocolate;
+}
+
+@keyframes borda{
+    0%{
+        border: 3px solid rgb(48, 29, 27);
+        transition: 0.5s;
+    }
+
+    50%{
+        border: 3px solid rgb(63, 47, 47);
+        transition: 0.5s;
+    }
+
+    100%{
+        border: 3px solid rgb(75, 56, 56);
+        transition: 0.5s;
+    }
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    margin: 10px auto;
+    background-color: #663d2b;
+    border-radius: 20px;
+    color:aliceblue;
+}
+
+button:active{
+    background-color: #aec3b0;
+    color: crimson;
+}
+button:hover{
+    width: 201px;
+    height: 31px;
+    background-color: #805340;
+    font-weight: bold;
+    transition: 0.1;
+}
