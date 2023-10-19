@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#esqueci-senha{
+    background-color: rgba(141, 122, 122, 0.411);
+    height: 20px;
+    width: 20;
+    color: black;
+}
+
+#esqueci-senha:hover{
+    height: 20px;
+    width: 200px;
+    background-color: #a0877bbd;
+    font-weight:bolder;
+    transition: 0.1;
+}

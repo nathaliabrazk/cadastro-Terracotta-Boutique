@@ -69,7 +69,7 @@ input:focus{
     height: 40px;
     transition: 0.1s;
     background-color: rgba(94, 49, 49, 0.308);
-    color: azure;
+    color: #381c10;
 }
 
 input:hover{
@@ -108,8 +108,8 @@ button{
 }
 
 button:active{
-    background-color: #aec3b0;
-    color: crimson;
+    background-color: #976d6d;
+    color: rgb(85, 60, 65);
 }
 button:hover{
     width: 201px;
